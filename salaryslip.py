@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-placement_model = pickle.load(open("D:/internship/placement/placement_model", "rb"))
+placement_model = pickle.load(open("placement_model", "rb"))
 
 def Predict(input_data):
     inpute_data_as_numpy_array = np.asarray(input_data)
